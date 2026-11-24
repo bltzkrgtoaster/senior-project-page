@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Victor Bellmore | Custom Costuming</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700&family=Source+Serif+4:wght@400;600&display=swap">
+<style>
+:root{--bg:#eef2f6;--panel:#fff;--ink:#1b2a41;--muted:#55627a;--line:#cfd8e3;--accent:#2f5fd0;--accent-soft:#dfe8fb;color-scheme:light;
+--head:'Bricolage Grotesque','Trebuchet MS',system-ui,sans-serif;--body:'Source Serif 4',Georgia,serif;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f1724;--panel:#17212f;--ink:#e8edf5;--muted:#9aa8bf;--line:#2a3849;--accent:#8fb0ff;--accent-soft:#223153;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0f1724;--panel:#17212f;--ink:#e8edf5;--muted:#9aa8bf;--line:#2a3849;--accent:#8fb0ff;--accent-soft:#223153;color-scheme:dark}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:18px/1.65 var(--body)}
+.layout{display:grid;grid-template-columns:260px 1fr;min-height:100vh}
+nav{position:sticky;top:0;align-self:start;height:100vh;padding:2rem 1rem;border-right:1px solid var(--line);background:var(--panel)}
+.brand{font:700 1.15rem/1.2 var(--head);padding:0 .75rem 1.5rem}
+.brand small{display:block;font:400 .85rem var(--body);color:var(--muted);margin-top:.25rem}
+nav a{display:block;padding:.6rem .75rem;margin-bottom:.15rem;border-radius:8px;color:var(--muted);text-decoration:none;font:500 1rem var(--head)}
+nav a:hover{background:var(--accent-soft);color:var(--ink)}
+nav a[aria-current="page"]{background:var(--accent-soft);color:var(--accent)}
+a:focus-visible,summary:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+main{padding:3rem clamp(1.25rem,5vw,4rem);max-width:60rem}
+section{display:none}
+section.on{display:block}
+h1{font:700 clamp(2.2rem,5vw,3.6rem)/1.05 var(--head);margin:0 0 1rem;letter-spacing:-.02em}
+h2{font:700 1.4rem var(--head);margin:2rem 0 .5rem}
+p,li{max-width:66ch}
+.lead{font-size:1.25rem;color:var(--muted)}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:1.25rem 1.5rem;margin:1rem 0}
+.card h3{margin:0 0 .25rem;font:700 1.1rem var(--head)}
+.meta{color:var(--muted);font-size:.95rem;margin:0}
+details{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:.9rem 1.25rem;margin:.75rem 0}
+summary{cursor:pointer;font:700 1.05rem var(--head)}
+details p{margin:.75rem 0 0}
+.ph{color:var(--muted);font-style:italic}
+.pill{display:inline-block;background:var(--accent-soft);color:var(--accent);border-radius:99px;padding:.1rem .7rem;font:500 .85rem var(--head);margin:.2rem .3rem .2rem 0}
+@media (max-width:760px){
+.layout{grid-template-columns:1fr}
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;height:auto;display:flex;gap:.25rem;overflow-x:auto;padding:.5rem;border-right:0;border-bottom:1px solid var(--line)}
+.brand{display:none}
+nav a{white-space:nowrap;margin:0}
+main{padding-top:2rem}
+}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--panel);z-index:10}
+</style>
+</head>
+<body>
+<div class="layout">
+<nav aria-label="Portfolio pages">
+<div class="brand">Victor Bellmore<small>Custom Costuming · Senior Project</small></div>
+<a href="#home">Home</a>
+<a href="#introduction">Introduction</a>
+<a href="#mentor">Mentor Information</a>
+<a href="#conferences">Monthly Conferences &amp; Reflections</a>
+<a href="#evidence">Evidence of Learning</a>
+<a href="#research">Research</a>
+<a href="#reflection">Final Reflection / Thank You</a>
+</nav>
+<main id="main" tabindex="-1">
+
+<section id="home">
+<h1>Custom Costuming</h1>
+<p class="lead">Victor Bellmore · Senior Project with Ms. Cook</p>
+<p>Can I design, build, and deliver a custom costume as a commissioned project? Over six months I’m making a wearable mascot-style character costume for a client, with a head, hand pieces, working electronic displays, and custom 3-D printed plastics.</p>
+<p class="ph">Add a photo of your design sketch or a work in progress here.</p>
+<div class="card"><h3>Where to start</h3><p class="meta">Begin with the Introduction, then follow the pages in order, or jump to Evidence of Learning to see the finished work.</p></div>
+</section>
+
+<section id="introduction">
+<h1>Introduction</h1>
+<p>I love big craft projects, and I’ve wanted to learn how to make costumes for a while. This project lets me learn patterning, designing, cutting, and sewing faux fur and fabric, then combine that with electronics and 3-D printing.</p>
+<h2>Essential questions</h2>
+<ul><li>What are the basic skills for costume design?</li><li>How can I combine sewing with electronics and 3-D printed components?</li></ul>
+<h2>Project goals</h2>
+<p>My finished product is a complete set of head and hand pieces for a client’s character design, with working electronic displays and custom-made hard plastics. It will show how I learned sewing, patterning, fabrication, and electronics.</p>
+<h2>Timeline</h2>
+<ul><li>About three months to design, pattern the fabric, and make the custom plastics</li><li>About two months to assemble everything, including the electronics</li><li>One extra month in case of setbacks</li></ul>
+<h2>Why this matters to me</h2>
+<h2>Where I’m starting</h2>
+<p>My sewing experience is limited, mostly sewing patches onto clothing and mending. I know a decent amount about wiring and programming electronic displays.</p>
+<h2>Risks</h2>
+<p>I’ve never sewn anything bigger than four inches, and I’ve never successfully patterned a 3-D object, so patterning may be my biggest challenge.</p>
+</section>
+
+<section id="mentor">
+<h1>Mentor Information</h1>
+<div class="card">
+<h3>Kilcodo</h3>
+<p class="meta">Independent costume maker and artist · Kilcodo Costumes</p>
+<p>Kilcodo has made custom costumes since 2008 and has more than 17 years of experience building one-of-a-kind, handmade costumes and mascots. Her work includes the kind of fur, patterning, and character fabrication my project requires.</p>
+<p><a href="https://kilcodocostumes.com" target="_blank" rel="noopener">Visit Kilcodo Costumes</a></p>
+</div>
+<h2>How we worked together</h2>
+<p>We meet in person once a month, and we talk constantly over Telegram in between, so I can ask questions as soon as I get stuck.</p>
+<p>Kilcodo has taught me about sewing, working with fur, and the patterning and construction techniques behind creating costumes.</p>
+</section>
+
+<section id="conferences">
+<h1>Monthly Conferences &amp; Reflections</h1>
+<p class="lead">Select a month to read what we discussed and what I learned.</p>
+<details open><summary>September · Design and patterning</summary><p class="ph">Date of meeting, topics discussed, and your reflection.</p></details>
+<details><summary>October · Design and patterning</summary><p class="ph">Date of meeting, topics discussed, and your reflection.</p></details>
+<details><summary>November · Custom plastics</summary><p class="ph">Date of meeting, topics discussed, and your reflection.</p></details>
+<details><summary>December · Assembly and electronics</summary><p class="ph">Date of meeting, topics discussed, and your reflection.</p></details>
+<details><summary>January · Assembly and electronics</summary><p class="ph">Date of meeting, topics discussed, and your reflection.</p></details>
+<details><summary>February · Buffer and delivery</summary><p class="ph">Date of meeting, topics discussed, and your reflection.</p></details>
+</section>
+
+<section id="evidence">
+<h1>Evidence of Learning</h1>
+<p class="lead">Work samples that show what I learned and made.</p>
+<div class="card"><h3>Artifact title</h3><p class="meta">Date · Type (photo, document, video)</p><p class="ph">Describe what this shows and what skill it demonstrates. Add a link or image.</p></div>
+<div class="card"><h3>Artifact title</h3><p class="meta">Date · Type (photo, document, video)</p><p class="ph">Describe what this shows and what skill it demonstrates. Add a link or image.</p></div>
+<div class="card"><h3>Artifact title</h3><p class="meta">Date · Type (photo, document, video)</p><p class="ph">Describe what this shows and what skill it demonstrates. Add a link or image.</p></div>
+</section>
+
+<section id="research">
+<h1>Research</h1>
+<p class="ph">Summarize the research question you investigated and what you found.</p>
+<h2>Key topics</h2>
+<p><span class="pill">Costume patterning</span><span class="pill">Sewing faux fur</span><span class="pill">3-D printing</span><span class="pill">Electronic displays</span></p>
+<h2>Sources</h2>
+<ol><li class="ph">Author. Title. Publisher, year.</li><li class="ph">Author. Title. Publisher, year.</li><li class="ph">Author. Title. Publisher, year.</li></ol>
+</section>
+
+<section id="reflection">
+<h1>Final Reflection / Thank You</h1>
+<p class="ph">Look back on the whole project. What went well, what was hard, and what would you do differently? How did you grow?</p>
+<h2>Thank you</h2>
+<p class="ph">Thank your mentor, teachers, family, and anyone else who supported you.</p>
+</section>
+
+</main>
+</div>
+<script>
+(function(){
+var ids=['home','introduction','mentor','conferences','evidence','research','reflection'];
+function show(){
+var id=(location.hash||'').slice(1);
+if(ids.indexOf(id)<0)id='home';
+ids.forEach(function(s){document.getElementById(s).classList.toggle('on',s===id)});
+document.querySelectorAll('nav a').forEach(function(a){
+if(a.getAttribute('href')==='#'+id)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');
+});
+window.scrollTo(0,0);
+}
+window.addEventListener('hashchange',show);
+show();
+})();
+</script>
+</body>
+</html>
